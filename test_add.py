@@ -1,4 +1,4 @@
-from Addition import add
+from addition import add
 import os
 import sys
 
@@ -10,3 +10,4 @@ if add(a, b) == a + b:
 else:
     print(f"TEST FAILED for {a} + {b}")
     sys.exit(1)
+
